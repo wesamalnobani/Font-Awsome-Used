@@ -1,0 +1,30 @@
+/* Start Media Query */
+/* Mobile & Tablet Rules xs*/
+@media (max-width: 767px) { 
+    .visible-xs {
+        display: block !important}
+    .hidden-xs {
+        display: none !important}
+}
+/* Small Screen Rules sm*/
+@media (min-width: 768px) and (max-width: 991px) { 
+    .visible-sm {
+        display: block !important}
+    .hidden-sm {
+        display: none !important}
+}
+/* Medium Screen Rules md*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .visible-md {
+        display: block !important}
+    .hidden-md {
+        display: none !important}
+}
+/* Large Screen Rules lg*/
+@media (min-width: 1200px)  { 
+    .visible-lg {
+        display: block !important}
+    .hidden-lg {
+        display: none !important}
+}
+/* End Media Query */

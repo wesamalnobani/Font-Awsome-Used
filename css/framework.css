@@ -1,0 +1,24 @@
+/* -- Start My Framework -- */
+.container {
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.layout {
+    background-color: var(--layOut-color); 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0}
+.clearfix {clear: both}
+.visible-xs,                 /* Mobile Screen */
+.visible-sm,                 /* Small Screen  */
+.visible-md,                 /* Medium Screen */
+.visible-lg {display: none}  /* Large Screen  */
+.F-L {float: left}
+.F-R {float: right}
+.h1 {font-size: 1.8em}
+.active {color: var(--logoGreen-color)}
+.text-center {text-align: center}
+/* -- End My Framework -- */
